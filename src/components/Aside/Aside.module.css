@@ -1,0 +1,19 @@
+.aside {
+    background-color: rgb(230, 214, 245);
+    grid-area: n;
+}
+
+.aside_list {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.aside_list a {
+    text-decoration: none;
+    color: rgb(148, 60, 60);
+}
+
+.aside_list_item a.active {
+    color:burlywood;
+}

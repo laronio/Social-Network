@@ -1,0 +1,16 @@
+.App {
+  width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas:
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.App_main {
+  grid-area: c;
+  background-color: rgb(99, 166, 197);
+}
