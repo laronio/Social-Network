@@ -49,6 +49,7 @@ class App extends React.Component {
       <Aside />
       <div className="App_main">
         <Switch>
+          <Route exact path="/social-network" render={() => <Redirect to={"/profile"} />} />
           <Route exact path="/" render={() => <Redirect to={"/profile"} />} />
           <Route path="/profile/:userId?" render={withSuspense(ProfileContainer)} />
           <Route path="/dialogs" render={withSuspense(DialogsContainer)} />
